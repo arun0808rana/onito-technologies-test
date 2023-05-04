@@ -72,10 +72,16 @@ form {
     width: 100%;
     max-width: 344px;
     margin: 0 32px 32px 0;
-    /* margin-bottom: 32px; */
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
+    position: relative;
+}
+
+.error_msg {
+    display: block;
+    color: red;
+    margin: 8px 0 0 20px;
 }
 
 .form-controls {
